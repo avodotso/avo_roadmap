@@ -128,12 +128,106 @@
     "completedDate": "2025-10-16"
   },
   {
+    "item": "Intelligent Position Closing",
+    "description": "Enhanced closing mechanism with smart handling of all edge cases including dust amounts and failed closure swaps. The system automatically incinerates low-value balances (below $1) and closes token accounts to redeem locked SOL, ensuring efficient capital recovery.",
+    "date": "2025-10-17",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-10-17",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1979147128879378456"
+  },
+  {
+    "item": "Enhanced Swap Optimization",
+    "description": "Achieved approximately 112x cheaper swap costs for Avo agents through intelligent routing and optimization algorithms. This dramatic improvement significantly reduces trading fees for all users and enables more cost-effective portfolio rebalancing.",
+    "date": "2025-10-23",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-10-23",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1981251698682449952"
+  },
+  {
     "item": "Initial Alpha Version Test Flight",
     "description": "Launch the first alpha version of the Avo mobile app through TestFlight to a carefully selected group of early adopters and power users. This controlled rollout will focus on gathering critical feedback on core functionality, user experience, and identifying any critical bugs before wider distribution. Alpha testers will have direct communication channels with the development team to report issues and suggest improvements.",
     "date": "2025-10-31",
     "category": "Development",
     "completed": true,
     "completedDate": "2025-10-31"
+  },
+  {
+    "item": "Solana Top 20 Organic Index",
+    "description": "Launch of the first narrative-based index on Avo platform featuring the top 20 organic Solana tokens. This marks the beginning of Avo's index investing capabilities, allowing users to gain diversified exposure to entire narratives rather than individual token speculation.",
+    "date": "2025-11-06",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-11-06",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1986335138578637247"
+  },
+  {
+    "item": "Developer API Alpha Release",
+    "description": "Launch of Avo's Developer API in alpha, enabling select teams to build trading functionality and integrate Avo's infrastructure into their applications. This API allows developers to programmatically manage agents, execute trades, and access Avo's intelligent trading engine.",
+    "date": "2025-11-16",
+    "category": "Development",
+    "completed": true,
+    "completedDate": "2025-11-16",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1989967168734461997",
+    "subItems": [
+      {
+        "item": "Alpha Testing with Select Teams",
+        "description": "Private alpha testing of the Developer API with carefully selected partner teams to gather feedback and refine functionality",
+        "date": "2025-11-16",
+        "completed": true,
+        "completedDate": "2025-11-16"
+      },
+      {
+        "item": "AI Trading Workflow Infrastructure",
+        "description": "Deployment of Windmill and n8n instances to enable AI-powered trading workflows for Avo",
+        "date": "2025-11-17",
+        "completed": true,
+        "completedDate": "2025-11-17",
+        "twitterUrl": "https://twitter.com/0xpaperhead/status/1990546085249757403"
+      }
+    ]
+  },
+  {
+    "item": "Advanced Trading Controls & Intelligence",
+    "description": "Comprehensive suite of advanced trading controls giving users granular control over their agent behavior. Includes configurable band thresholds for portfolio rebalancing, minimum swap value settings to optimize transaction fees, smarter retry logic for failed transactions, and significantly improved pool activity logs for complete transparency.",
+    "date": "2025-11-18",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-11-18",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1990872959624401155",
+    "subItems": [
+      {
+        "item": "Band & Min Swap Thresholds",
+        "description": "User-configurable band thresholds for rebalancing triggers and minimum swap values to prevent unnecessary small transactions",
+        "date": "2025-11-18",
+        "completed": true,
+        "completedDate": "2025-11-18"
+      },
+      {
+        "item": "Smart Transaction Retry Logic",
+        "description": "Intelligent retry mechanism for failed transactions with exponential backoff and alternative routing",
+        "date": "2025-11-18",
+        "completed": true,
+        "completedDate": "2025-11-18"
+      },
+      {
+        "item": "Enhanced Pool Activity Logs",
+        "description": "Much cleaner and more detailed pool logs providing clear visibility into all agent actions and decisions",
+        "date": "2025-11-18",
+        "completed": true,
+        "completedDate": "2025-11-18"
+      }
+    ]
+  },
+  {
+    "item": "Homepage UI Refresh",
+    "description": "Comprehensive redesign of Avo's homepage with a much fresher, modern interface that better showcases the platform's capabilities and improves user onboarding experience.",
+    "date": "2025-11-20",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-11-20",
+    "twitterUrl": "https://twitter.com/0xpaperhead/status/1991323984449912858"
   },
   {
     "item": "Beta Version Release",
@@ -155,5 +249,60 @@
     "date": "2025-12-05",
     "category": "Development",
     "completed": false
+  },
+  {
+    "item": "Developer API Public Launch",
+    "description": "Full public release of Avo's Developer API, enabling any developer to build on top of Avo's infrastructure. This will open up the platform for third-party integrations, custom trading tools, and innovative applications built on Avo's intelligent trading engine.",
+    "date": "2025-12-12",
+    "category": "Development",
+    "completed": false,
+    "subItems": [
+      {
+        "item": "AI Trading Workflow Documentation",
+        "description": "Comprehensive tutorials and guides for deploying AI trading workflows using Windmill, n8n, and other automation tools with Avo's API",
+        "date": "2025-12-12",
+        "completed": false
+      },
+      {
+        "item": "API Documentation Portal",
+        "description": "Complete API documentation with examples, SDKs, and integration guides for developers",
+        "date": "2025-12-12",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "item": "Enhanced Trade Logs & Transparency",
+    "description": "Improved user interface for viewing detailed trade history and transaction logs. This will provide users with complete visibility into every action their agents take, including swap details, reasoning, and performance metrics for maximum transparency.",
+    "date": "2025-12-19",
+    "category": "Platform",
+    "completed": false
+  },
+  {
+    "item": "Narrative Index Expansion",
+    "description": "Expansion of Avo's index offerings beyond the initial Solana Top 20 Organic Index. Launch multiple narrative-based indexes covering DeFi, AI agents, memecoins, and other crypto sectors, enabling users to invest in entire market segments with a single click.",
+    "date": "2026-01-09",
+    "category": "Platform",
+    "completed": false,
+    "subItems": [
+      {
+        "item": "DeFi Index Launch",
+        "description": "Curated index of top DeFi protocols and tokens on Solana",
+        "date": "2026-01-09",
+        "completed": false
+      },
+      {
+        "item": "AI Agent Index Launch",
+        "description": "Index tracking the performance of AI agent tokens and ICM ecosystem projects",
+        "date": "2026-01-16",
+        "completed": false
+      },
+      {
+        "item": "Custom Index Creator Tool",
+        "description": "Tools allowing users and developers to create and deploy their own custom indexes on Avo",
+        "date": "2026-01-23",
+        "completed": false
+      }
+    ]
   }
 ]
