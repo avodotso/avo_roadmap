@@ -4,7 +4,17 @@ This guide explains how to add and update items in the `avo_roadmap.json` file.
 
 ## JSON Structure
 
-The roadmap is a JSON array of items. Each item can have the following properties:
+The roadmap is a JSON object containing metadata and an array of roadmap items.
+
+### Root Level Properties
+
+- `"updated_at"` (string): Date when the roadmap was last updated, format `"YYYY-MM-DD"` (e.g., `"2025-11-20"`)
+- `"version"` (string): Version of the roadmap structure (e.g., `"1.0"`)
+- `"items"` (array): Array of roadmap items (see below)
+
+### Roadmap Item Properties
+
+Each item in the `items` array can have the following properties:
 
 ### Required Properties
 - `"item"` (string): The name/title of the roadmap item
@@ -157,59 +167,64 @@ The roadmap automatically determines status based on the `completed` field and `
 ## Full Example JSON File
 
 ```json
-[
-  {
-    "item": "Mobile App Launch",
-    "description": "Launch native mobile applications for iOS and Android with full trading capabilities.",
-    "date": "2025-12-20",
-    "category": "Development",
-    "completed": false,
-    "twitterUrl": "https://twitter.com/avodotso/status/announcement",
-    "imageUrl": "https://example.com/mobile-app-preview.png",
-    "subItems": [
-      {
-        "item": "iOS Beta Testing",
-        "description": "Complete beta testing phase for iOS app",
-        "date": "2025-12-05",
-        "completed": true,
-        "completedDate": "2025-12-03",
-        "twitterUrl": "https://twitter.com/avodotso/status/ios-beta"
-      },
-      {
-        "item": "Android Beta Testing",
-        "description": "Complete beta testing phase for Android app",
-        "date": "2025-12-10",
-        "completed": false
-      },
-      {
-        "item": "App Store Submission",
-        "description": "Submit apps to Apple App Store and Google Play Store",
-        "date": "2025-12-15",
-        "completed": false
-      }
-    ]
-  },
-  {
-    "item": "Staking Rewards Program",
-    "description": "Launch staking program where users can stake AVO tokens to earn rewards.",
-    "date": "2026-01-15",
-    "category": "Platform",
-    "completed": false
-  }
-]
+{
+  "updated_at": "2025-11-20",
+  "version": "1.0",
+  "items": [
+    {
+      "item": "Mobile App Launch",
+      "description": "Launch native mobile applications for iOS and Android with full trading capabilities.",
+      "date": "2025-12-20",
+      "category": "Development",
+      "completed": false,
+      "twitterUrl": "https://twitter.com/avodotso/status/announcement",
+      "imageUrl": "https://example.com/mobile-app-preview.png",
+      "subItems": [
+        {
+          "item": "iOS Beta Testing",
+          "description": "Complete beta testing phase for iOS app",
+          "date": "2025-12-05",
+          "completed": true,
+          "completedDate": "2025-12-03",
+          "twitterUrl": "https://twitter.com/avodotso/status/ios-beta"
+        },
+        {
+          "item": "Android Beta Testing",
+          "description": "Complete beta testing phase for Android app",
+          "date": "2025-12-10",
+          "completed": false
+        },
+        {
+          "item": "App Store Submission",
+          "description": "Submit apps to Apple App Store and Google Play Store",
+          "date": "2025-12-15",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "item": "Staking Rewards Program",
+      "description": "Launch staking program where users can stake AVO tokens to earn rewards.",
+      "date": "2026-01-15",
+      "category": "Platform",
+      "completed": false
+    }
+  ]
+}
 ```
 
 ---
 
 ## Tips
 
-1. **Always use double quotes** for property names and string values
-2. **No trailing commas** - The last item in an array or object should NOT have a comma
-3. **Date format**: Always use `"YYYY-MM-DD"` (e.g., `"2025-12-25"`)
-4. **Boolean values**: Use `true` or `false` (no quotes)
-5. **Optional fields**: If you don't have a value, simply omit the property (don't use `null` or `undefined`)
-6. **Categories**: Must be exactly one of: `"Platform"`, `"Trading"`, `"Community"`, or `"Development"`
-7. **Sub-items**: Sub-items have the same structure but don't need a `category` field
+1. **Always update the `updated_at` field** - When making any changes to the roadmap, update the `"updated_at"` field at the root level to the current date
+2. **Always use double quotes** for property names and string values
+3. **No trailing commas** - The last item in an array or object should NOT have a comma
+4. **Date format**: Always use `"YYYY-MM-DD"` (e.g., `"2025-12-25"`)
+5. **Boolean values**: Use `true` or `false` (no quotes)
+6. **Optional fields**: If you don't have a value, simply omit the property (don't use `null` or `undefined`)
+7. **Categories**: Must be exactly one of: `"Platform"`, `"Trading"`, `"Community"`, or `"Development"`
+8. **Sub-items**: Sub-items have the same structure but don't need a `category` field
 
 ---
 
