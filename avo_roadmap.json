@@ -1,0 +1,159 @@
+[
+  {
+    "item": "Fund Agents with Avo Tokens",
+    "description": "Users will be able to add funds to existing pools using the Avo token.",
+    "date": "2025-06-20",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-06-19"
+  },
+  {
+    "item": "Stop Loss/Take Profit",
+    "description": "Enable users to set stop-loss and take-profit on all agent pools.",
+    "date": "2025-06-20",
+    "category": "Trading",
+    "completed": true,
+    "completedDate": "2025-06-19"
+  },
+  {
+    "item": "Utilization of Avo Tokens for Platform Transaction Fees (25% Discount)",
+    "description": "Users can choose to pay for transaction fees with Avo Tokens. As a reward, a 25% transaction fee discount will be applied to all transactions paid for with Avo Tokens.",
+    "date": "2025-06-27",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-06-25"
+  },
+  {
+    "item": "Open Pools in Avo",
+    "description": "New pools can be opened and completely funded with Avo Tokens.",
+    "date": "2025-07-04",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-06-19"
+  },
+  {
+    "item": "Close Pools in Avo",
+    "description": "When closing positions in agents, your funds will be received in Avo Tokens.",
+    "date": "2025-07-04",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-06-19"
+  },
+  {
+    "item": "Earn Referral Fees in Avo",
+    "description": "Users can earn fees by referring new users to Avo, paid in Avo.",
+    "date": "2025-07-18",
+    "category": "Community",
+    "completed": true,
+    "completedDate": "2025-07-18"
+  },
+  {
+    "item": "Detailed Reward Center",
+    "description": "A detailed reward center will make it crystal clear how much you are earning from referral fees and saving by using Avo Tokens.",
+    "date": "2025-07-25",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-07-25"
+  },
+  {
+    "item": "Weekly PnL Leaderboard",
+    "description": "Introduction of a weekly Profit and Loss (PnL) leaderboard to highlight our top-performing users.",
+    "date": "2025-08-01",
+    "category": "Community",
+    "completed": true,
+    "completedDate": "2025-08-01"
+  },
+  {
+    "item": "Backend Architecture Modernization",
+    "description": "Migrate and expand our infrastructure for improved performance, reliability, and developer experience. This modernization will enable faster item delivery, enhanced system stability, better support for new items, and allow new engineers joining the team to get up to speed faster.",
+    "date": "2025-08-08",
+    "category": "Development",
+    "completedDate": "2025-08-08",
+    "completed": true
+  },
+  {
+    "item": "Real-Time Token Intelligence Service",
+    "description": "Launch our proprietary token metadata service that continuously monitors Solana tokens for price, volume, market cap, and liquidity data with appropirate fallback mechanisms. This further reduces third-party dependencies and provides more accurate, real-time token information.",
+    "date": "2025-08-15",
+    "category": "Platform",
+    "completedDate": "2025-08-15",
+    "completed": true
+  },
+  {
+    "item": "Unified Trading Engine Migration",
+    "description": "Complete the transition of our core trading systems to a unified architecture. This includes migrating portfolio management, rebalancing algorithms, and position management to our new high-performance infrastructure. This will new agent listing, index creation, and creator portfolios to be super simple to launch.",
+    "date": "2025-08-29",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-08-29"
+  },
+  {
+    "item": "Onboarding New Devs",
+    "description": "We will onboard new devs to the avo team. Start scaling our infrastructure to own the Agent Capital Markets narrative.",
+    "date": "2025-09-05",
+    "category": "Development",
+    "completed": true,
+    "completedDate": "2025-09-05"
+  },
+  {
+    "item": "Developer Agent Fees",
+    "description": "Allows developers to earn fees by listing their agents on the platform, paid in Avo. Fees will be split 50/50 between Avo and the developer, after considering all referral and staking deductions.",
+    "date": "2025-09-19",
+    "category": "Development",
+    "completed": true,
+    "completedDate": "2025-09-19"
+  },
+  {
+    "item": "V2 Avo Infrastructure",
+    "description": "Complete rollout of the next-gen Avo infrastructure with enhanced improved performance, control, and advanced cross-chain support gearing for the growing Avo ecosystem. Expect constant rollouts before the deadline.",
+    "date": "2025-10-03",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-10-03"
+  },
+  {
+    "item": "Post-V2 Launch Review",
+    "description": "Review the launch of the V2 Avo infrastructure and rectify any issues.",
+    "date": "2025-10-10",
+    "category": "Platform",
+    "completed": true,
+    "completedDate": "2025-10-10"
+  },
+  {
+    "item": "Kickstart Avo App Development",
+    "description": "Finalized stack and development requirements of the native Avo mobile application for iOS and Android, bringing the full trading experience to mobile devices with real-time portfolio tracking and trading capabilities.",
+    "date": "2025-10-17",
+    "category": "Development",
+    "completed": true,
+    "completedDate": "2025-10-16"
+  },
+  {
+    "item": "Initial Alpha Version Test Flight",
+    "description": "Launch the first alpha version of the Avo mobile app through TestFlight to a carefully selected group of early adopters and power users. This controlled rollout will focus on gathering critical feedback on core functionality, user experience, and identifying any critical bugs before wider distribution. Alpha testers will have direct communication channels with the development team to report issues and suggest improvements.",
+    "date": "2025-10-31",
+    "category": "Development",
+    "completed": true,
+    "completedDate": "2025-10-31"
+  },
+  {
+    "item": "Beta Version Release",
+    "description": "Expand the mobile app release to a larger test group with an initial controlled public beta. This phase introduces the app to a broader audience while maintaining quality controls and monitoring systems. Beta users will experience the full item set including portfolio tracking, agent management, and real-time trading capabilities. Feedback from this phase will drive final optimizations and item refinements before the official public launch.",
+    "date": "2025-11-21",
+    "category": "Development",
+    "completed": false
+  },
+  {
+    "item": "App Review and Optimization",
+    "description": "Comprehensive review and analysis of beta testing results, including detailed examination of user feedback, crash reports, performance metrics, and usage patterns. This phase focuses on identifying and resolving any remaining issues, optimizing agent categorization and discovery items, refining the user interface based on real-world usage data, and implementing performance improvements. Final preparations for public release including app store optimization and marketing materials.",
+    "date": "2025-12-05",
+    "category": "Development",
+    "completed": false
+  },
+  {
+    "item": "Avonomics Blueprint",
+    "description": "Launch comprehensive tokenomics plan including: Revenue-backed staking with proportional fee distribution to $AVO stakers, automated buyback flywheel to grow team reserves and reduce circulating supply, revenue-backed burn mechanism permanently removing paid-for tokens from circulation (similar to HYPE/PUMP models), developer revenue-share pools for ecosystem contributors, and $AVO-backed community incentives funding hackathons, events, and developer onboarding programs to accelerate Avo's ecosystem growth.",
+    "date": "2025-11-28",
+    "category": "Platform",
+    "completed": false
+  }
+]
