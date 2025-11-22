@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-20",
-  "version": "2.7",
+  "updated_at": "2025-11-21",
+  "version": "2.8",
   "items": [
     {
       "item": "Fund Agents with Avo Tokens",
@@ -166,6 +166,14 @@
       "twitterUrl": "https://twitter.com/0xpaperhead/status/1986335138578637247"
     },
     {
+      "item": "Avo Service Status Page",
+      "description": "Launch of Avo's service status page to provide real-time visibility into the status of Avo's core services and infrastructure. This page will display the current status of Avo's services, including any ongoing maintenance or incidents, and provide updates on the status of Avo's services. Located at: https://status.avo.so",
+      "date": "2025-11-12",
+      "category": "Platform",
+      "completed": true,
+      "completedDate": "2025-11-12"
+    },
+    {
       "item": "Developer API Alpha Release",
       "description": "Launch of Avo's Developer API in alpha, enabling select teams to build trading functionality and integrate Avo's infrastructure into their applications. This API allows developers to programmatically manage agents, execute trades, and access Avo's intelligent trading engine.",
       "date": "2025-11-16",
@@ -244,7 +252,58 @@
       "item": "Beta Version Release",
       "description": "Expand the mobile app release to a larger test group with an initial controlled public beta. This phase introduces the app to a broader audience while maintaining quality controls and monitoring systems. Beta users will experience the full item set including portfolio tracking, agent management, and real-time trading capabilities. Feedback from this phase will drive final optimizations and item refinements before the official public launch.",
       "date": "2025-11-21",
+      "tentative": true,
+      "tentativeReason": "Beta version has been delayed for two reasons: First, to accommodate and stay compliant for public TestFlight and necessary additional approvals by app stores (Google Play Store and Apple App Store) which are yet to be completed. Second, to addressing critical feedback from the alpha testing phase and other issues discovered in the process.\n\nDev comments: Some parts of the app were clunky - especially with graphing components (on the agent page and on the pool page). Navigation between pages felt clunky. This is optimization that requires some parts to be rewritten. Not to mention, this changes between Android and iOS and between different phones so right now I have a good idea of what's not smooth and what needs to be addressed on a technical level. However, I am realising these challenges will likely continue to come up with a public rollout.\n\nSometimes social onboarding doesn't work and sometimes the token times out. Which I suspect is because there's mis-configuration between our gateway (what serves the data) and privy on mobile. This was honestly the fastest way to roll out auth without rewriting the gateway but I realized it's probably a better idea rewriting the gateway service to work directly with privy as its auth layer.\n\nUnrelated to mobile, but there are some critical infrastructure layer updates that need to be rolled out - this will delay time spent on devving the mobile app.",
       "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Burn Mechanism Infrastructure Review",
+      "description": "Address critical infrastructure issues identified in the token burn mechanism. As a protective measure, the burn functionality has been temporarily paused while the team implements necessary fixes. This ensures the burn mechanism operates safely and correctly before re-enabling, protecting both the protocol and token holders.",
+      "date": "2025-11-23",
+      "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Process ID Infrastructure Implementation",
+      "description": "Deploy comprehensive process identification system across all Avo infrastructure components. In addition to pre-existing log IDs, this enhancement assigns unique process IDs to every batch process and operation throughout the platform, dramatically improving issue observability, debugging capabilities, and system monitoring. Enables faster incident response and better tracking of operations across distributed systems.",
+      "date": "2025-11-24",
+      "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Data Fallback Mechanisms",
+      "description": "Implement robust fallback systems for critical data retrieval across the platform. This includes redundant data sources for both pool data and token market data, ensuring uninterrupted service even when primary data providers experience downtime. Multi-layered fallback architecture guarantees users always have access to accurate, real-time information for their trading decisions.",
+      "date": "2025-11-25",
+      "category": "Platform",
+      "completed": false,
+      "subItems": [
+        {
+          "item": "Pool Data Fallback System",
+          "description": "Redundant data retrieval mechanisms for pool information, performance metrics, and portfolio states",
+          "date": "2025-11-25",
+          "completed": false
+        },
+        {
+          "item": "Token Market Data Fallback System",
+          "description": "Multi-source fallback architecture for token prices, volume, liquidity, and market cap data",
+          "date": "2025-11-25",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "item": "App Store Listing Approval Initiation",
+      "description": "Initiate formal approval processes with both Apple App Store and Google Play Store for listing Avo in the Financial category. This involves preparing detailed app descriptions, screenshots, compliance documentation, and services disclosures required by both platforms. Approval in the Financial category establishes Avo as a legitimate financial technology platform.",
+      "date": "2025-11-26",
+      "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Trade Logs Interface Launch",
+      "description": "Release comprehensive trade logs interface providing users with complete transparency and visibility into every trade executed by their pools. View detailed swap information including entry/exit prices, slippage, fees, timestamps, and transaction signatures. This powerful tool enables users to audit agent performance, understand trading decisions, and verify all pool activities.",
+      "date": "2025-11-27",
+      "category": "Platform",
       "completed": false
     },
     {
@@ -255,8 +314,22 @@
       "completed": false
     },
     {
-      "item": "App Review and Optimization",
-      "description": "Comprehensive review and analysis of beta testing results, including detailed examination of user feedback, crash reports, performance metrics, and usage patterns. This phase focuses on identifying and resolving any remaining issues, optimizing agent categorization and discovery items, refining the user interface based on real-world usage data, and implementing performance improvements. Final preparations for public release including app store optimization and marketing materials.",
+      "item": "Gateway Infrastructure Migration to Privy",
+      "description": "Complete migration of Avo's authentication and wallet gateway infrastructure to Privy, a modern embedded wallet and authentication platform. This upgrade provides enhanced security, better user experience with social logins, seamless wallet creation, and improved cross-device authentication flows. Privy integration enables smoother onboarding and more flexible authentication options for Avo users.",
+      "date": "2025-12-01",
+      "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Mobile App Auth Integration",
+      "description": "Integrate the Avo mobile app with the new Privy-based authentication and gateway infrastructure. This ensures consistent authentication experience across web and mobile platforms, enabling users to seamlessly access their accounts, manage wallets, and execute trades from any device with unified security and session management.",
+      "date": "2025-12-02",
+      "category": "Development",
+      "completed": false
+    },
+    {
+      "item": "Alpha Feedback Implementation & UI Polish",
+      "description": "Address all critical feedback collected during the alpha testing phase, including UI/UX improvements, fallback mechanism refinements, bug fixes, and performance optimizations. Focus on resolving issues identified by early testers around app responsiveness, data loading states, error handling, and edge cases. Final polish phase ensuring the app meets production-ready quality standards before broader beta release.",
       "date": "2025-12-05",
       "category": "Development",
       "completed": false

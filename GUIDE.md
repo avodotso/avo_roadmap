@@ -25,6 +25,8 @@ Each item in the `items` array can have the following properties:
 
 ### Optional Properties
 - `"completedDate"` (string): When the item was completed, format `"YYYY-MM-DD"` (only for completed items)
+- `"tentative"` (boolean): Set to `true` if the deadline is tentative and may change
+- `"tentativeReason"` (string): Explanation for why the deadline is tentative (required if `tentative` is `true`)
 - `"twitterUrl"` (string): Link to Twitter announcement/post
 - `"imageUrl"` (string): Link to an image that can be viewed in a lightbox
 - `"subItems"` (array): Array of sub-items (see below)
@@ -65,6 +67,20 @@ The roadmap automatically determines status based on the `completed` field and `
   "category": "Platform",
   "completed": true,
   "completedDate": "2025-11-08"
+}
+```
+
+### Tentative Item
+
+```json
+{
+  "item": "Beta Version Release",
+  "description": "Expand the mobile app release to a larger test group with an initial controlled public beta.",
+  "date": "2025-11-22",
+  "tentative": true,
+  "tentativeReason": "Timeline depends on successful completion of Apple Developer Account approval and TestFlight setup. Beta launch will proceed once all app store compliance requirements are met.",
+  "category": "Development",
+  "completed": false
 }
 ```
 
@@ -225,6 +241,7 @@ The roadmap automatically determines status based on the `completed` field and `
 6. **Optional fields**: If you don't have a value, simply omit the property (don't use `null` or `undefined`)
 7. **Categories**: Must be exactly one of: `"Platform"`, `"Trading"`, `"Community"`, or `"Development"`
 8. **Sub-items**: Sub-items have the same structure but don't need a `category` field
+9. **Tentative deadlines**: Use `"tentative": true` for dates that may change due to dependencies. Always include a `"tentativeReason"` explaining why (e.g., pending approvals, dependent on other items, external factors)
 
 ---
 
