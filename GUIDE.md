@@ -29,6 +29,7 @@ Each item in the `items` array can have the following properties:
 - `"tentativeReason"` (string): Explanation for why the deadline is tentative (required if `tentative` is `true`)
 - `"twitterUrl"` (string): Link to Twitter announcement/post
 - `"imageUrl"` (string): Link to an image that can be viewed in a lightbox
+- `"signed_by"` (string): Name or identifier of the person who signed off on or is responsible for this item (only for top-level items, not sub-items)
 - `"subItems"` (array): Array of sub-items (see below)
 
 ---
@@ -110,6 +111,19 @@ The roadmap automatically determines status based on the `completed` field and `
   "completedDate": "2026-01-30",
   "twitterUrl": "https://twitter.com/avodotso/status/123456789",
   "imageUrl": "https://example.com/images/new-ui-preview.png"
+}
+```
+
+### Item with Signed By
+
+```json
+{
+  "item": "Security Audit",
+  "description": "Complete comprehensive security audit of all smart contracts and infrastructure.",
+  "date": "2026-02-15",
+  "category": "Development",
+  "completed": false,
+  "signed_by": "John Doe"
 }
 ```
 
@@ -240,8 +254,9 @@ The roadmap automatically determines status based on the `completed` field and `
 5. **Boolean values**: Use `true` or `false` (no quotes)
 6. **Optional fields**: If you don't have a value, simply omit the property (don't use `null` or `undefined`)
 7. **Categories**: Must be exactly one of: `"Platform"`, `"Trading"`, `"Community"`, or `"Development"`
-8. **Sub-items**: Sub-items have the same structure but don't need a `category` field
+8. **Sub-items**: Sub-items have the same structure but don't need a `category` field and cannot have a `signed_by` field
 9. **Tentative deadlines**: Use `"tentative": true` for dates that may change due to dependencies. Always include a `"tentativeReason"` explaining why (e.g., pending approvals, dependent on other items, external factors)
+10. **Signed by**: The `"signed_by"` field is only available for top-level items to track accountability. Sub-items inherit the responsibility from their parent item
 
 ---
 
