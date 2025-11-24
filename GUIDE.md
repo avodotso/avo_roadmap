@@ -275,3 +275,9 @@ After editing, validate your JSON:
 2. Commit your changes
 3. The website will automatically fetch the latest version (cache-busted with timestamps)
 4. Users will see updates when they refresh the page
+
+---
+
+## Recent Status Notes
+
+- Burn Mechanism Infrastructure Review completed: 2025-11-23 (signed by codex)
