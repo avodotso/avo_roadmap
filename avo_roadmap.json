@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-23",
-  "version": "2.9",
+  "updated_at": "2025-11-25",
+  "version": "3.0",
   "items": [
     {
       "item": "Fund Agents with Avo Tokens",
@@ -299,7 +299,10 @@
       "date": "2025-11-24",
       "category": "Development",
       "signed_by": "0xpaperhead",
-      "completed": false
+      "completed": true,
+      "completedDate": "2025-11-24",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1993235598577156415",
+      "imageUrl": "https://pbs.twimg.com/media/G6llCTaa0AEaiLd?format=png&name=small"
     },
     {
       "item": "App Store Listing Approval Initiation",
