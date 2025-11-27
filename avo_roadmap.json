@@ -315,28 +315,6 @@
       "twitterUrl": "https://x.com/0xpaperhead/status/1993499949167001731"
     },
     {
-      "item": "Data Fallback Mechanisms",
-      "description": "Implement robust fallback systems for critical data retrieval across the platform. This includes redundant data sources for both pool data and token market data, ensuring uninterrupted service even when primary data providers experience downtime. Multi-layered fallback architecture guarantees users always have access to accurate, real-time information for their trading decisions.",
-      "date": "2025-11-26",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": false,
-      "subItems": [
-        {
-          "item": "Pool Data Fallback System",
-          "description": "Redundant data retrieval mechanisms for pool information, performance metrics, and portfolio states",
-          "date": "2025-11-26",
-          "completed": false
-        },
-        {
-          "item": "Token Market Data Fallback System",
-          "description": "Multi-source fallback architecture for token prices, volume, liquidity, and market cap data",
-          "date": "2025-11-26",
-          "completed": false
-        }
-      ]
-    },
-    {
       "item": "DFlow JIT Routing Integration",
       "description": "Avo AI Agents now use DFlow's JIT Routing. Avo is the largest marketplace for AI trading agents, indexes, and managed funds. Instead of picking tokens or watching charts, Avo gives you one-click, narrative-based crypto bundles that are managed for you.",
       "date": "2025-11-26",
@@ -349,10 +327,32 @@
     {
       "item": "Trade Logs Interface Launch",
       "description": "Release comprehensive trade logs interface providing users with complete transparency and visibility into every trade executed by their pools. View detailed swap information including entry/exit prices, slippage, fees, timestamps, and transaction signatures. This powerful tool enables users to audit agent performance, understand trading decisions, and verify all pool activities.",
-      "date": "2025-11-27",
+      "date": "2025-11-26",
       "category": "Platform",
       "signed_by": "0xpaperhead",
       "completed": false
+    },
+    {
+      "item": "Data Fallback Mechanisms",
+      "description": "Implement robust fallback systems for critical data retrieval across the platform. This includes redundant data sources for both pool data and token market data, ensuring uninterrupted service even when primary data providers experience downtime. Multi-layered fallback architecture guarantees users always have access to accurate, real-time information for their trading decisions.",
+      "date": "2025-11-27",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false,
+      "subItems": [
+        {
+          "item": "Pool Data Fallback System",
+          "description": "Redundant data retrieval mechanisms for pool information, performance metrics, and portfolio states",
+          "date": "2025-11-27",
+          "completed": false
+        },
+        {
+          "item": "Token Market Data Fallback System",
+          "description": "Multi-source fallback architecture for token prices, volume, liquidity, and market cap data",
+          "date": "2025-11-27",
+          "completed": false
+        }
+      ]
     },
     {
       "item": "Avonomics Blueprint",
