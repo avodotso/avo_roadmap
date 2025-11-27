@@ -1,225 +1,206 @@
 {
-  "updated_at": "2025-11-27",
+  "updated_at": "2025-11-26",
   "version": "3.0",
   "items": [
     {
-      "item": "Fund Agents with Avo Tokens",
-      "description": "Users will be able to add funds to existing pools using the Avo token.",
-      "date": "2025-06-20",
+      "item": "Narrative Index Expansion",
+      "description": "Expansion of Avo's index offerings beyond the initial Solana Top 20 Organic Index. Launch multiple narrative-based indexes covering DeFi, AI agents, memecoins, and other crypto sectors, enabling users to invest in entire market segments with a single click.",
+      "date": "2026-01-23",
       "category": "Platform",
       "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-06-19"
-    },
-    {
-      "item": "Stop Loss/Take Profit",
-      "description": "Enable users to set stop-loss and take-profit on all agent pools.",
-      "date": "2025-06-20",
-      "category": "Trading",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-06-19"
-    },
-    {
-      "item": "Utilization of Avo Tokens for Platform Transaction Fees (25% Discount)",
-      "description": "Users can choose to pay for transaction fees with Avo Tokens. As a reward, a 25% transaction fee discount will be applied to all transactions paid for with Avo Tokens.",
-      "date": "2025-06-27",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-06-25"
-    },
-    {
-      "item": "Open Pools in Avo",
-      "description": "New pools can be opened and completely funded with Avo Tokens.",
-      "date": "2025-07-04",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-06-19"
-    },
-    {
-      "item": "Close Pools in Avo",
-      "description": "When closing positions in agents, your funds will be received in Avo Tokens.",
-      "date": "2025-07-04",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-06-19"
-    },
-    {
-      "item": "Earn Referral Fees in Avo",
-      "description": "Users can earn fees by referring new users to Avo, paid in Avo.",
-      "date": "2025-07-18",
-      "category": "Community",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-07-18"
-    },
-    {
-      "item": "Detailed Reward Center",
-      "description": "A detailed reward center will make it crystal clear how much you are earning from referral fees and saving by using Avo Tokens.",
-      "date": "2025-07-25",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-07-25"
-    },
-    {
-      "item": "Weekly PnL Leaderboard",
-      "description": "Introduction of a weekly Profit and Loss (PnL) leaderboard to highlight our top-performing users.",
-      "date": "2025-08-01",
-      "category": "Community",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-08-01"
-    },
-    {
-      "item": "Backend Architecture Modernization",
-      "description": "Migrate and expand our infrastructure for improved performance, reliability, and developer experience. This modernization will enable faster item delivery, enhanced system stability, better support for new items, and allow new engineers joining the team to get up to speed faster.",
-      "date": "2025-08-08",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completedDate": "2025-08-08",
-      "completed": true
-    },
-    {
-      "item": "Real-Time Token Intelligence Service",
-      "description": "Launch our proprietary token metadata service that continuously monitors Solana tokens for price, volume, market cap, and liquidity data with appropirate fallback mechanisms. This further reduces third-party dependencies and provides more accurate, real-time token information.",
-      "date": "2025-08-15",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completedDate": "2025-08-15",
-      "completed": true
-    },
-    {
-      "item": "Unified Trading Engine Migration",
-      "description": "Complete the transition of our core trading systems to a unified architecture. This includes migrating portfolio management, rebalancing algorithms, and position management to our new high-performance infrastructure. This will new agent listing, index creation, and creator portfolios to be super simple to launch.",
-      "date": "2025-08-29",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-08-29"
-    },
-    {
-      "item": "Onboarding New Devs",
-      "description": "We will onboard new devs to the avo team. Start scaling our infrastructure to own the Agent Capital Markets narrative.",
-      "date": "2025-09-05",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-09-05"
-    },
-    {
-      "item": "Developer Agent Fees",
-      "description": "Allows developers to earn fees by listing their agents on the platform, paid in Avo. Fees will be split 50/50 between Avo and the developer, after considering all referral and staking deductions.",
-      "date": "2025-09-19",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-09-19"
-    },
-    {
-      "item": "V2 Avo Infrastructure",
-      "description": "Complete rollout of the next-gen Avo infrastructure with enhanced improved performance, control, and advanced cross-chain support gearing for the growing Avo ecosystem. Expect constant rollouts before the deadline.",
-      "date": "2025-10-03",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-03"
-    },
-    {
-      "item": "Post-V2 Launch Review",
-      "description": "Review the launch of the V2 Avo infrastructure and rectify any issues.",
-      "date": "2025-10-10",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-10"
-    },
-    {
-      "item": "Kickstart Avo App Development",
-      "description": "Finalized stack and development requirements of the native Avo mobile application for iOS and Android, bringing the full trading experience to mobile devices with real-time portfolio tracking and trading capabilities.",
-      "date": "2025-10-17",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-16"
-    },
-    {
-      "item": "Intelligent Position Closing",
-      "description": "Enhanced closing mechanism with smart handling of all edge cases including dust amounts and failed closure swaps. The system automatically incinerates low-value balances (below $1) and closes token accounts to redeem locked SOL, ensuring efficient capital recovery.",
-      "date": "2025-10-17",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-17",
-      "twitterUrl": "https://twitter.com/0xpaperhead/status/1979147128879378456"
-    },
-    {
-      "item": "Enhanced Swap Optimization",
-      "description": "Achieved approximately 112x cheaper swap costs for Avo agents through intelligent routing and optimization algorithms. This dramatic improvement significantly reduces trading fees for all users and enables more cost-effective portfolio rebalancing.",
-      "date": "2025-10-23",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-23",
-      "twitterUrl": "https://twitter.com/0xpaperhead/status/1981251698682449952"
-    },
-    {
-      "item": "Initial Alpha Version Test Flight",
-      "description": "Launch the first alpha version of the Avo mobile app through TestFlight to a carefully selected group of early adopters and power users. This controlled rollout will focus on gathering critical feedback on core functionality, user experience, and identifying any critical bugs before wider distribution. Alpha testers will have direct communication channels with the development team to report issues and suggest improvements.",
-      "date": "2025-10-31",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-10-31"
-    },
-    {
-      "item": "Solana Top 20 Organic Index",
-      "description": "Launch of the first narrative-based index on Avo platform featuring the top 20 organic Solana tokens. This marks the beginning of Avo's index investing capabilities, allowing users to gain diversified exposure to entire narratives rather than individual token speculation.",
-      "date": "2025-11-06",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-11-06",
-      "twitterUrl": "https://twitter.com/0xpaperhead/status/1986335138578637247"
-    },
-    {
-      "item": "Avo Service Status Page",
-      "description": "Launch of Avo's service status page to provide real-time visibility into the status of Avo's core services and infrastructure. This page will display the current status of Avo's services, including any ongoing maintenance or incidents, and provide updates on the status of Avo's services. Located at: https://status.avo.so",
-      "date": "2025-11-12",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-11-12"
-    },
-    {
-      "item": "Developer API Alpha Release",
-      "description": "Launch of Avo's Developer API in alpha, enabling select teams to build trading functionality and integrate Avo's infrastructure into their applications. This API allows developers to programmatically manage agents, execute trades, and access Avo's intelligent trading engine.",
-      "date": "2025-11-16",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-11-16",
-      "twitterUrl": "https://twitter.com/0xpaperhead/status/1989967168734461997",
+      "completed": false,
       "subItems": [
         {
-          "item": "Alpha Testing with Select Teams",
-          "description": "Private alpha testing of the Developer API with carefully selected partner teams to gather feedback and refine functionality",
-          "date": "2025-11-16",
-          "completed": true,
-          "completedDate": "2025-11-16"
+          "item": "DeFi Index Launch",
+          "description": "Curated index of top DeFi protocols and tokens on Solana",
+          "date": "2026-01-16",
+          "completed": false
         },
         {
-          "item": "AI Trading Workflow Infrastructure",
-          "description": "Deployment of Windmill and n8n instances to enable AI-powered trading workflows for Avo",
-          "date": "2025-11-17",
-          "completed": true,
-          "completedDate": "2025-11-17",
-          "twitterUrl": "https://twitter.com/0xpaperhead/status/1990546085249757403"
+          "item": "AI Agent Index Launch",
+          "description": "Index tracking the performance of AI agent tokens and ICM ecosystem projects",
+          "date": "2026-01-23",
+          "completed": false
+        },
+        {
+          "item": "Custom Index Creator Tool",
+          "description": "Tools allowing users and developers to create and deploy their own custom indexes on Avo",
+          "date": "2026-01-23",
+          "completed": false
         }
       ]
+    },
+    {
+      "item": "Enhanced Trade Logs & Transparency",
+      "description": "Improved user interface for viewing detailed trade history and transaction logs. This will provide users with complete visibility into every action their agents take, including swap details, reasoning, and performance metrics for maximum transparency.",
+      "date": "2026-01-02",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "Developer API Public Launch",
+      "description": "Full public release of Avo's Developer API, enabling any developer to build on top of Avo's infrastructure. This will open up the platform for third-party integrations, custom trading tools, and innovative applications built on Avo's intelligent trading engine.",
+      "date": "2025-12-26",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": false,
+      "subItems": [
+        {
+          "item": "AI Trading Workflow Documentation",
+          "description": "Comprehensive tutorials and guides for deploying AI trading workflows using Windmill, n8n, and other automation tools with Avo's API",
+          "date": "2025-12-26",
+          "completed": false
+        },
+        {
+          "item": "API Documentation Portal",
+          "description": "Complete API documentation with examples, SDKs, and integration guides for developers",
+          "date": "2025-12-26",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "item": "Alpha Feedback Implementation & UI Polish",
+      "description": "Address all critical feedback collected during the alpha testing phase, including UI/UX improvements, fallback mechanism refinements, bug fixes, and performance optimizations. Focus on resolving issues identified by early testers around app responsiveness, data loading states, error handling, and edge cases. Final polish phase ensuring the app meets production-ready quality standards before broader beta release.",
+      "date": "2025-12-05",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "Mobile App Auth Integration",
+      "description": "Integrate the Avo mobile app with the new Privy-based authentication and gateway infrastructure. This ensures consistent authentication experience across web and mobile platforms, enabling users to seamlessly access their accounts, manage wallets, and execute trades from any device with unified security and session management.",
+      "date": "2025-12-02",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "Gateway Infrastructure Migration to Privy",
+      "description": "Complete migration of Avo's authentication and wallet gateway infrastructure to Privy, a modern embedded wallet and authentication platform. This upgrade provides enhanced security, better user experience with social logins, seamless wallet creation, and improved cross-device authentication flows. Privy integration enables smoother onboarding and more flexible authentication options for Avo users.",
+      "date": "2025-12-01",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "Avonomics Blueprint",
+      "description": "Launch comprehensive tokenomics plan including: Revenue-backed staking with proportional fee distribution to $AVO stakers, automated buyback flywheel to grow team reserves and reduce circulating supply, revenue-backed burn mechanism permanently removing paid-for tokens from circulation (similar to HYPE/PUMP models), developer revenue-share pools for ecosystem contributors, and $AVO-backed community incentives funding hackathons, events, and developer onboarding programs to accelerate Avo's ecosystem growth.",
+      "date": "2025-11-28",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "Data Fallback Mechanisms",
+      "description": "Implement robust fallback systems for critical data retrieval across the platform. This includes redundant data sources for both pool data and token market data, ensuring uninterrupted service even when primary data providers experience downtime. Multi-layered fallback architecture guarantees users always have access to accurate, real-time information for their trading decisions.",
+      "date": "2025-11-27",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false,
+      "subItems": [
+        {
+          "item": "Pool Data Fallback System",
+          "description": "Redundant data retrieval mechanisms for pool information, performance metrics, and portfolio states",
+          "date": "2025-11-27",
+          "completed": false
+        },
+        {
+          "item": "Token Market Data Fallback System",
+          "description": "Multi-source fallback architecture for token prices, volume, liquidity, and market cap data",
+          "date": "2025-11-27",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "item": "Avo Internal SDK Update",
+      "description": "The Avo internal SDK received an update.",
+      "date": "2025-11-27",
+      "category": "Development",
+      "completed": true,
+      "completedDate": "2025-11-27",
+      "twitterUrl": "https://twitter.com/avoagent/status/1993917419707134446",
+      "imageUrl": "https://twitter.com/avoagent/status/1993917419707134446"
+    },
+    {
+      "item": "DFlow JIT Routing Integration",
+      "description": "Avo AI Agents now use DFlow's JIT Routing. Avo is the largest marketplace for AI trading agents, indexes, and managed funds. Instead of picking tokens or watching charts, Avo gives you one-click, narrative-based crypto bundles that are managed for you.",
+      "date": "2025-11-26",
+      "category": "Platform",
+      "signed_by": "avoagent",
+      "completed": true,
+      "completedDate": "2025-11-26",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1993771590564368391"
+    },
+    {
+      "item": "Trade Logs Interface Launch",
+      "description": "Release comprehensive trade logs interface providing users with complete transparency and visibility into every trade executed by their pools. View detailed swap information including entry/exit prices, slippage, fees, timestamps, and transaction signatures. This powerful tool enables users to audit agent performance, understand trading decisions, and verify all pool activities.",
+      "date": "2025-11-26",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
+      "item": "App Store Listing Approval Initiation",
+      "description": "Initiate formal approval processes with both Apple App Store and Google Play Store for listing Avo in the Financial category. This involves preparing detailed app descriptions, screenshots, compliance documentation, and services disclosures required by both platforms. Approval in the Financial category establishes Avo as a legitimate financial technology platform.",
+      "date": "2025-11-25",
+      "category": "Development",
+      "signed_by": "avoagent",
+      "completed": true,
+      "completedDate": "2025-11-25",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1993499949167001731"
+    },
+    {
+      "item": "Process ID Infrastructure Implementation",
+      "description": "Deploy comprehensive process identification system across all Avo infrastructure components. In addition to pre-existing log IDs, this enhancement assigns unique process IDs to every batch process and operation throughout the platform, dramatically improving issue observability, debugging capabilities, and system monitoring. Enables faster incident response and better tracking of operations across distributed systems.",
+      "date": "2025-11-24",
+      "category": "Development",
+      "signed_by": "copilot",
+      "completed": true,
+      "completedDate": "2025-11-24",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1993235598577156415",
+      "imageUrl": "https://pbs.twimg.com/media/G6llCTaa0AEaiLd?format=png&name=small"
+    },
+    {
+      "item": "Burn Mechanism Infrastructure Review",
+      "description": "Address critical infrastructure issues identified in the token burn mechanism. As a protective measure, the burn functionality has been temporarily paused while the team implements necessary fixes. This ensures the burn mechanism operates safely and correctly before re-enabling, protecting both the protocol and token holders.",
+      "date": "2025-11-23",
+      "category": "Development",
+      "signed_by": "codex",
+      "completed": true,
+      "completedDate": "2025-11-23"
+    },
+    {
+      "item": "Beta Version Release",
+      "description": "Expand the mobile app release to a larger test group with an initial controlled public beta. This phase introduces the app to a broader audience while maintaining quality controls and monitoring systems. Beta users will experience the full item set including portfolio tracking, agent management, and real-time trading capabilities. Feedback from this phase will drive final optimizations and item refinements before the official public launch.",
+      "date": "2025-11-21",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "tentative": true,
+      "tentativeReason": "Beta version has been delayed for two reasons: First, to accommodate and stay compliant for public TestFlight and necessary additional approvals by app stores (Google Play Store and Apple App Store) which are yet to be completed. Second, to addressing critical feedback from the alpha testing phase and other issues discovered in the process.\n\nDev comments: Some parts of the app were clunky - especially with graphing components (on the agent page and on the pool page). Navigation between pages felt clunky. This is optimization that requires some parts to be rewritten. Not to mention, this changes between Android and iOS and between different phones so right now I have a good idea of what's not smooth and what needs to be addressed on a technical level. However, I am realising these challenges will likely continue to come up with a public rollout.\n\nSometimes social onboarding doesn't work and sometimes the token times out. Which I suspect is because there's mis-configuration between our gateway (what serves the data) and privy on mobile. This was honestly the fastest way to roll out auth without rewriting the gateway but I realized it's probably a better idea rewriting the gateway service to work directly with privy as its auth layer.\n\nUnrelated to mobile, but there are some critical infrastructure layer updates that need to be rolled out - this will delay time spent on devving the mobile app.",
+      "completed": false
+    },
+    {
+      "item": "Homepage UI Refresh",
+      "description": "Comprehensive redesign of Avo's homepage with a much fresher, modern interface that better showcases the platform's capabilities and improves user onboarding experience.",
+      "date": "2025-11-20",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-11-20",
+      "twitterUrl": "https://twitter.com/0xpaperhead/status/1991323984449912858"
+    },
+    {
+      "item": "Dynamic Roadmap Updates from Twitter",
+      "description": "Enhanced roadmap system that automatically pulls updates directly from Paperhead's Twitter announcements, ensuring the community always has real-time visibility into the latest developments, features, and milestones. This creates a transparent, living roadmap that reflects Avo's rapid development pace.",
+      "date": "2025-11-20",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-11-20",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1992059333442769261?s=20"
     },
     {
       "item": "Advanced Trading Controls & Intelligence",
@@ -255,194 +236,223 @@
       ]
     },
     {
-      "item": "Homepage UI Refresh",
-      "description": "Comprehensive redesign of Avo's homepage with a much fresher, modern interface that better showcases the platform's capabilities and improves user onboarding experience.",
-      "date": "2025-11-20",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-11-20",
-      "twitterUrl": "https://twitter.com/0xpaperhead/status/1991323984449912858"
-    },
-    {
-      "item": "Dynamic Roadmap Updates from Twitter",
-      "description": "Enhanced roadmap system that automatically pulls updates directly from Paperhead's Twitter announcements, ensuring the community always has real-time visibility into the latest developments, features, and milestones. This creates a transparent, living roadmap that reflects Avo's rapid development pace.",
-      "date": "2025-11-20",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": true,
-      "completedDate": "2025-11-20",
-      "twitterUrl": "https://x.com/0xpaperhead/status/1992059333442769261?s=20"
-    },
-    {
-      "item": "Beta Version Release",
-      "description": "Expand the mobile app release to a larger test group with an initial controlled public beta. This phase introduces the app to a broader audience while maintaining quality controls and monitoring systems. Beta users will experience the full item set including portfolio tracking, agent management, and real-time trading capabilities. Feedback from this phase will drive final optimizations and item refinements before the official public launch.",
-      "date": "2025-11-21",
+      "item": "Developer API Alpha Release",
+      "description": "Launch of Avo's Developer API in alpha, enabling select teams to build trading functionality and integrate Avo's infrastructure into their applications. This API allows developers to programmatically manage agents, execute trades, and access Avo's intelligent trading engine.",
+      "date": "2025-11-16",
       "category": "Development",
       "signed_by": "0xpaperhead",
-      "tentative": true,
-      "tentativeReason": "Beta version has been delayed for two reasons: First, to accommodate and stay compliant for public TestFlight and necessary additional approvals by app stores (Google Play Store and Apple App Store) which are yet to be completed. Second, to addressing critical feedback from the alpha testing phase and other issues discovered in the process.\n\nDev comments: Some parts of the app were clunky - especially with graphing components (on the agent page and on the pool page). Navigation between pages felt clunky. This is optimization that requires some parts to be rewritten. Not to mention, this changes between Android and iOS and between different phones so right now I have a good idea of what's not smooth and what needs to be addressed on a technical level. However, I am realising these challenges will likely continue to come up with a public rollout.\n\nSometimes social onboarding doesn't work and sometimes the token times out. Which I suspect is because there's mis-configuration between our gateway (what serves the data) and privy on mobile. This was honestly the fastest way to roll out auth without rewriting the gateway but I realized it's probably a better idea rewriting the gateway service to work directly with privy as its auth layer.\n\nUnrelated to mobile, but there are some critical infrastructure layer updates that need to be rolled out - this will delay time spent on devving the mobile app.",
-      "completed": false
-    },
-    {
-      "item": "Burn Mechanism Infrastructure Review",
-      "description": "Address critical infrastructure issues identified in the token burn mechanism. As a protective measure, the burn functionality has been temporarily paused while the team implements necessary fixes. This ensures the burn mechanism operates safely and correctly before re-enabling, protecting both the protocol and token holders.",
-      "date": "2025-11-23",
-      "category": "Development",
-      "signed_by": "codex",
       "completed": true,
-      "completedDate": "2025-11-23"
-    },
-    {
-      "item": "Process ID Infrastructure Implementation",
-      "description": "Deploy comprehensive process identification system across all Avo infrastructure components. In addition to pre-existing log IDs, this enhancement assigns unique process IDs to every batch process and operation throughout the platform, dramatically improving issue observability, debugging capabilities, and system monitoring. Enables faster incident response and better tracking of operations across distributed systems.",
-      "date": "2025-11-24",
-      "category": "Development",
-      "signed_by": "copilot",
-      "completed": true,
-      "completedDate": "2025-11-24",
-      "twitterUrl": "https://x.com/0xpaperhead/status/1993235598577156415",
-      "imageUrl": "https://pbs.twimg.com/media/G6llCTaa0AEaiLd?format=png&name=small"
-    },
-    {
-      "item": "App Store Listing Approval Initiation",
-      "description": "Initiate formal approval processes with both Apple App Store and Google Play Store for listing Avo in the Financial category. This involves preparing detailed app descriptions, screenshots, compliance documentation, and services disclosures required by both platforms. Approval in the Financial category establishes Avo as a legitimate financial technology platform.",
-      "date": "2025-11-25",
-      "category": "Development",
-      "signed_by": "avoagent",
-      "completed": true,
-      "completedDate": "2025-11-25",
-      "twitterUrl": "https://x.com/0xpaperhead/status/1993499949167001731"
-    },
-    {
-      "item": "DFlow JIT Routing Integration",
-      "description": "Avo AI Agents now use DFlow's JIT Routing. Avo is the largest marketplace for AI trading agents, indexes, and managed funds. Instead of picking tokens or watching charts, Avo gives you one-click, narrative-based crypto bundles that are managed for you.",
-      "date": "2025-11-26",
-      "category": "Platform",
-      "signed_by": "avoagent",
-      "completed": true,
-      "completedDate": "2025-11-26",
-      "twitterUrl": "https://x.com/0xpaperhead/status/1993771590564368391"
-    },
-    {
-      "item": "Trade Logs Interface Launch",
-      "description": "Release comprehensive trade logs interface providing users with complete transparency and visibility into every trade executed by their pools. View detailed swap information including entry/exit prices, slippage, fees, timestamps, and transaction signatures. This powerful tool enables users to audit agent performance, understand trading decisions, and verify all pool activities.",
-      "date": "2025-11-26",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": false
-    },
-    {
-      "item": "Data Fallback Mechanisms",
-      "description": "Implement robust fallback systems for critical data retrieval across the platform. This includes redundant data sources for both pool data and token market data, ensuring uninterrupted service even when primary data providers experience downtime. Multi-layered fallback architecture guarantees users always have access to accurate, real-time information for their trading decisions.",
-      "date": "2025-11-27",
-      "category": "Platform",
-      "signed_by": "0xpaperhead",
-      "completed": false,
+      "completedDate": "2025-11-16",
+      "twitterUrl": "https://twitter.com/0xpaperhead/status/1989967168734461997",
       "subItems": [
         {
-          "item": "Pool Data Fallback System",
-          "description": "Redundant data retrieval mechanisms for pool information, performance metrics, and portfolio states",
-          "date": "2025-11-27",
-          "completed": false
+          "item": "Alpha Testing with Select Teams",
+          "description": "Private alpha testing of the Developer API with carefully selected partner teams to gather feedback and refine functionality",
+          "date": "2025-11-16",
+          "completed": true,
+          "completedDate": "2025-11-16"
         },
         {
-          "item": "Token Market Data Fallback System",
-          "description": "Multi-source fallback architecture for token prices, volume, liquidity, and market cap data",
-          "date": "2025-11-27",
-          "completed": false
+          "item": "AI Trading Workflow Infrastructure",
+          "description": "Deployment of Windmill and n8n instances to enable AI-powered trading workflows for Avo",
+          "date": "2025-11-17",
+          "completed": true,
+          "completedDate": "2025-11-17",
+          "twitterUrl": "https://twitter.com/0xpaperhead/status/1990546085249757403"
         }
       ]
     },
     {
-      "item": "Avonomics Blueprint",
-      "description": "Launch comprehensive tokenomics plan including: Revenue-backed staking with proportional fee distribution to $AVO stakers, automated buyback flywheel to grow team reserves and reduce circulating supply, revenue-backed burn mechanism permanently removing paid-for tokens from circulation (similar to HYPE/PUMP models), developer revenue-share pools for ecosystem contributors, and $AVO-backed community incentives funding hackathons, events, and developer onboarding programs to accelerate Avo's ecosystem growth.",
-      "date": "2025-11-28",
+      "item": "Avo Service Status Page",
+      "description": "Launch of Avo's service status page to provide real-time visibility into the status of Avo's core services and infrastructure. This page will display the current status of Avo's services, including any ongoing maintenance or incidents, and provide updates on the status of Avo's services. Located at: https://status.avo.so",
+      "date": "2025-11-12",
       "category": "Platform",
       "signed_by": "0xpaperhead",
-      "completed": false
+      "completed": true,
+      "completedDate": "2025-11-12"
     },
     {
-      "item": "Gateway Infrastructure Migration to Privy",
-      "description": "Complete migration of Avo's authentication and wallet gateway infrastructure to Privy, a modern embedded wallet and authentication platform. This upgrade provides enhanced security, better user experience with social logins, seamless wallet creation, and improved cross-device authentication flows. Privy integration enables smoother onboarding and more flexible authentication options for Avo users.",
-      "date": "2025-12-01",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": false
-    },
-    {
-      "item": "Mobile App Auth Integration",
-      "description": "Integrate the Avo mobile app with the new Privy-based authentication and gateway infrastructure. This ensures consistent authentication experience across web and mobile platforms, enabling users to seamlessly access their accounts, manage wallets, and execute trades from any device with unified security and session management.",
-      "date": "2025-12-02",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": false
-    },
-    {
-      "item": "Alpha Feedback Implementation & UI Polish",
-      "description": "Address all critical feedback collected during the alpha testing phase, including UI/UX improvements, fallback mechanism refinements, bug fixes, and performance optimizations. Focus on resolving issues identified by early testers around app responsiveness, data loading states, error handling, and edge cases. Final polish phase ensuring the app meets production-ready quality standards before broader beta release.",
-      "date": "2025-12-05",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": false
-    },
-    {
-      "item": "Developer API Public Launch",
-      "description": "Full public release of Avo's Developer API, enabling any developer to build on top of Avo's infrastructure. This will open up the platform for third-party integrations, custom trading tools, and innovative applications built on Avo's intelligent trading engine.",
-      "date": "2025-12-26",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": false,
-      "subItems": [
-        {
-          "item": "AI Trading Workflow Documentation",
-          "description": "Comprehensive tutorials and guides for deploying AI trading workflows using Windmill, n8n, and other automation tools with Avo's API",
-          "date": "2025-12-26",
-          "completed": false
-        },
-        {
-          "item": "API Documentation Portal",
-          "description": "Complete API documentation with examples, SDKs, and integration guides for developers",
-          "date": "2025-12-26",
-          "completed": false
-        }
-      ]
-    },
-    {
-      "item": "Enhanced Trade Logs & Transparency",
-      "description": "Improved user interface for viewing detailed trade history and transaction logs. This will provide users with complete visibility into every action their agents take, including swap details, reasoning, and performance metrics for maximum transparency.",
-      "date": "2026-01-02",
+      "item": "Solana Top 20 Organic Index",
+      "description": "Launch of the first narrative-based index on Avo platform featuring the top 20 organic Solana tokens. This marks the beginning of Avo's index investing capabilities, allowing users to gain diversified exposure to entire narratives rather than individual token speculation.",
+      "date": "2025-11-06",
       "category": "Platform",
       "signed_by": "0xpaperhead",
-      "completed": false
+      "completed": true,
+      "completedDate": "2025-11-06",
+      "twitterUrl": "https://twitter.com/0xpaperhead/status/1986335138578637247"
     },
     {
-      "item": "Narrative Index Expansion",
-      "description": "Expansion of Avo's index offerings beyond the initial Solana Top 20 Organic Index. Launch multiple narrative-based indexes covering DeFi, AI agents, memecoins, and other crypto sectors, enabling users to invest in entire market segments with a single click.",
-      "date": "2026-01-23",
+      "item": "Initial Alpha Version Test Flight",
+      "description": "Launch the first alpha version of the Avo mobile app through TestFlight to a carefully selected group of early adopters and power users. This controlled rollout will focus on gathering critical feedback on core functionality, user experience, and identifying any critical bugs before wider distribution. Alpha testers will have direct communication channels with the development team to report issues and suggest improvements.",
+      "date": "2025-10-31",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-10-31"
+    },
+    {
+      "item": "Enhanced Swap Optimization",
+      "description": "Achieved approximately 112x cheaper swap costs for Avo agents through intelligent routing and optimization algorithms. This dramatic improvement significantly reduces trading fees for all users and enables more cost-effective portfolio rebalancing.",
+      "date": "2025-10-23",
       "category": "Platform",
       "signed_by": "0xpaperhead",
-      "completed": false,
-      "subItems": [
-        {
-          "item": "DeFi Index Launch",
-          "description": "Curated index of top DeFi protocols and tokens on Solana",
-          "date": "2026-01-16",
-          "completed": false
-        },
-        {
-          "item": "AI Agent Index Launch",
-          "description": "Index tracking the performance of AI agent tokens and ICM ecosystem projects",
-          "date": "2026-01-23",
-          "completed": false
-        },
-        {
-          "item": "Custom Index Creator Tool",
-          "description": "Tools allowing users and developers to create and deploy their own custom indexes on Avo",
-          "date": "2026-01-23",
-          "completed": false
-        }
-      ]
+      "completed": true,
+      "completedDate": "2025-10-23",
+      "twitterUrl": "https://twitter.com/0xpaperhead/status/1981251698682449952"
+    },
+    {
+      "item": "Kickstart Avo App Development",
+      "description": "Finalized stack and development requirements of the native Avo mobile application for iOS and Android, bringing the full trading experience to mobile devices with real-time portfolio tracking and trading capabilities.",
+      "date": "2025-10-17",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-10-16"
+    },
+    {
+      "item": "Intelligent Position Closing",
+      "description": "Enhanced closing mechanism with smart handling of all edge cases including dust amounts and failed closure swaps. The system automatically incinerates low-value balances (below $1) and closes token accounts to redeem locked SOL, ensuring efficient capital recovery.",
+      "date": "2025-10-17",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-10-17",
+      "twitterUrl": "https://twitter.com/0xpaperhead/status/1979147128879378456"
+    },
+    {
+      "item": "Post-V2 Launch Review",
+      "description": "Review the launch of the V2 Avo infrastructure and rectify any issues.",
+      "date": "2025-10-10",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-10-10"
+    },
+    {
+      "item": "V2 Avo Infrastructure",
+      "description": "Complete rollout of the next-gen Avo infrastructure with enhanced improved performance, control, and advanced cross-chain support gearing for the growing Avo ecosystem. Expect constant rollouts before the deadline.",
+      "date": "2025-10-03",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-10-03"
+    },
+    {
+      "item": "Developer Agent Fees",
+      "description": "Allows developers to earn fees by listing their agents on the platform, paid in Avo. Fees will be split 50/50 between Avo and the developer, after considering all referral and staking deductions.",
+      "date": "2025-09-19",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-09-19"
+    },
+    {
+      "item": "Onboarding New Devs",
+      "description": "We will onboard new devs to the avo team. Start scaling our infrastructure to own the Agent Capital Markets narrative.",
+      "date": "2025-09-05",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-09-05"
+    },
+    {
+      "item": "Unified Trading Engine Migration",
+      "description": "Complete the transition of our core trading systems to a unified architecture. This includes migrating portfolio management, rebalancing algorithms, and position management to our new high-performance infrastructure. This will new agent listing, index creation, and creator portfolios to be super simple to launch.",
+      "date": "2025-08-29",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-08-29"
+    },
+    {
+      "item": "Real-Time Token Intelligence Service",
+      "description": "Launch our proprietary token metadata service that continuously monitors Solana tokens for price, volume, market cap, and liquidity data with appropirate fallback mechanisms. This further reduces third-party dependencies and provides more accurate, real-time token information.",
+      "date": "2025-08-15",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completedDate": "2025-08-15",
+      "completed": true
+    },
+    {
+      "item": "Backend Architecture Modernization",
+      "description": "Migrate and expand our infrastructure for improved performance, reliability, and developer experience. This modernization will enable faster item delivery, enhanced system stability, better support for new items, and allow new engineers joining the team to get up to speed faster.",
+      "date": "2025-08-08",
+      "category": "Development",
+      "signed_by": "0xpaperhead",
+      "completedDate": "2025-08-08",
+      "completed": true
+    },
+    {
+      "item": "Weekly PnL Leaderboard",
+      "description": "Introduction of a weekly Profit and Loss (PnL) leaderboard to highlight our top-performing users.",
+      "date": "2025-08-01",
+      "category": "Community",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-08-01"
+    },
+    {
+      "item": "Detailed Reward Center",
+      "description": "A detailed reward center will make it crystal clear how much you are earning from referral fees and saving by using Avo Tokens.",
+      "date": "2025-07-25",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-07-25"
+    },
+    {
+      "item": "Earn Referral Fees in Avo",
+      "description": "Users can earn fees by referring new users to Avo, paid in Avo.",
+      "date": "2025-07-18",
+      "category": "Community",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-07-18"
+    },
+    {
+      "item": "Open Pools in Avo",
+      "description": "New pools can be opened and completely funded with Avo Tokens.",
+      "date": "2025-07-04",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-06-19"
+    },
+    {
+      "item": "Close Pools in Avo",
+      "description": "When closing positions in agents, your funds will be received in Avo Tokens.",
+      "date": "2025-07-04",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-06-19"
+    },
+    {
+      "item": "Utilization of Avo Tokens for Platform Transaction Fees (25% Discount)",
+      "description": "Users can choose to pay for transaction fees with Avo Tokens. As a reward, a 25% transaction fee discount will be applied to all transactions paid for with Avo Tokens.",
+      "date": "2025-06-27",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-06-25"
+    },
+    {
+      "item": "Fund Agents with Avo Tokens",
+      "description": "Users will be able to add funds to existing pools using the Avo token.",
+      "date": "2025-06-20",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-06-19"
+    },
+    {
+      "item": "Stop Loss/Take Profit",
+      "description": "Enable users to set stop-loss and take-profit on all agent pools.",
+      "date": "2025-06-20",
+      "category": "Trading",
+      "signed_by": "0xpaperhead",
+      "completed": true,
+      "completedDate": "2025-06-19"
     }
   ]
 }
