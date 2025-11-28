@@ -367,6 +367,14 @@
       "completed": false
     },
     {
+      "item": "Trade Logs Interface Launch",
+      "description": "Release comprehensive trade logs interface providing users with complete transparency and visibility into every trade executed by their pools. View detailed swap information including entry/exit prices, slippage, fees, timestamps, and transaction signatures. This powerful tool enables users to audit agent performance, understand trading decisions, and verify all pool activities.",
+      "date": "2025-11-29",
+      "category": "Platform",
+      "signed_by": "0xpaperhead",
+      "completed": false
+    },
+    {
       "item": "Gateway Infrastructure Migration to Privy",
       "description": "Complete migration of Avo's authentication and wallet gateway infrastructure to Privy, a modern embedded wallet and authentication platform. This upgrade provides enhanced security, better user experience with social logins, seamless wallet creation, and improved cross-device authentication flows. Privy integration enables smoother onboarding and more flexible authentication options for Avo users.",
       "date": "2025-12-01",
