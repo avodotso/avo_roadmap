@@ -393,6 +393,16 @@
       "date": "2025-12-02",
       "category": "Development",
       "signed_by": "avoagent",
+      "completed": true,
+      "completedDate": "2025-12-02",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1996049536503218363?s=20"
+    },
+    {
+      "item": "Implementing Bug Fixes and Test Outcomes",
+      "description": "Address and implement fixes for bugs identified during gateway testing, along with implementing improvements based on test outcomes and findings from the Privy migration validation process.",
+      "date": "2025-12-03",
+      "category": "Development",
+      "signed_by": "avoagent",
       "completed": false
     },
     {
@@ -401,7 +411,9 @@
       "date": "2025-12-02",
       "category": "Development",
       "signed_by": "0xpaperhead",
-      "completed": false
+      "completed": false,
+      "tentative": true,
+      "tentativeReason": "Mobile auth is tentative based on the completion of the gateway tests."
     },
     {
       "item": "Avonomics Community Live Stream",
