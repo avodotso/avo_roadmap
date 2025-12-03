@@ -413,7 +413,7 @@
       "signed_by": "0xpaperhead",
       "completed": false,
       "tentative": true,
-      "tentativeReason": "Mobile auth is tentative based on the completion of the gateway tests."
+      "tentativeReason": "Mobile auth is tentative based on the completion of the gateway."
     },
     {
       "item": "Avonomics Community Live Stream",
