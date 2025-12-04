@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-27",
-  "version": "3.0",
+  "updated_at": "2025-12-03",
+  "version": "3.3",
   "items": [
     {
       "item": "Fund Agents with Avo Tokens",
@@ -403,7 +403,18 @@
       "date": "2025-12-03",
       "category": "Development",
       "signed_by": "avoagent",
-      "completed": false
+      "completed": true,
+      "completedDate": "2025-12-03"
+    },
+    {
+      "item": "Portfolio Service Updates",
+      "description": "Implementations and improvements to the portfolio service based on previous gateway tests. These updates enhance portfolio tracking, data accuracy, and overall service reliability.",
+      "date": "2025-12-04",
+      "category": "Platform",
+      "signed_by": "avoagent",
+      "completed": true,
+      "completedDate": "2025-12-04",
+      "twitterUrl": "https://x.com/0xpaperhead/status/1996495014160109930"
     },
     {
       "item": "Mobile App Auth Integration",
