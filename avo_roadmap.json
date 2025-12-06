@@ -437,14 +437,6 @@
       "twitterUrl": "https://x.com/0xpaperhead/status/1994670529689583805?s=20"
     },
     {
-      "item": "Alpha Feedback Implementation & UI Polish",
-      "description": "Address all critical feedback collected during the alpha testing phase, including UI/UX improvements, fallback mechanism refinements, bug fixes, and performance optimizations. Focus on resolving issues identified by early testers around app responsiveness, data loading states, error handling, and edge cases. Final polish phase ensuring the app meets production-ready quality standards before broader beta release.",
-      "date": "2025-12-05",
-      "category": "Development",
-      "signed_by": "0xpaperhead",
-      "completed": false
-    },
-    {
       "item": "Developer API Public Launch",
       "description": "Full public release of Avo's Developer API, enabling any developer to build on top of Avo's infrastructure. This will open up the platform for third-party integrations, custom trading tools, and innovative applications built on Avo's intelligent trading engine.",
       "date": "2025-12-26",
